@@ -51,7 +51,7 @@
 	srand(time(NULL));
     
     [self.window makeKeyAndVisible];
-	window.backgroundColor = [UIColor groupTableViewBackgroundColor];
+	window.backgroundColor = [UIColor whiteColor];
 	
 	UILabel *howManyLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 35, 280, 20)];
 	howManyLabel.text = @"How many contacts to add";
